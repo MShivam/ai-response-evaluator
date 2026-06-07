@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F1729"/>
+      <stop offset="100%" style="stop-color:#1A2440"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="#0D1117"/>
+  <rect width="200" height="520" fill="url(#bg3)"/>
+  <text x="20" y="38" fill="#E2E8F0" font-family="monospace" font-size="15" font-weight="bold">🧠 AI Evaluator</text>
+  <line x1="10" y1="48" x2="190" y2="48" stroke="#334155" stroke-width="0.5"/>
+  <text x="24" y="78" fill="#64748B" font-family="monospace" font-size="12">🧪 New Evaluation</text>
+  <text x="24" y="103" fill="#64748B" font-family="monospace" font-size="12">📊 Dashboard</text>
+  <rect x="8" y="112" width="184" height="28" rx="6" fill="#4F8EF7" fill-opacity="0.2"/>
+  <rect x="14" y="119" width="3" height="14" rx="1" fill="#4F8EF7"/>
+  <text x="24" y="131" fill="#93C5FD" font-family="monospace" font-size="12">📜 History</text>
+  <text x="24" y="156" fill="#64748B" font-family="monospace" font-size="12">📤 Export</text>
+  <!-- History page -->
+  <text x="220" y="38" fill="#E2E8F0" font-family="monospace" font-size="18" font-weight="bold">📜 Evaluation History</text>
+  <text x="220" y="55" fill="#64748B" font-family="monospace" font-size="11">5 total evaluations</text>
+  <!-- Search bar -->
+  <rect x="220" y="64" width="660" height="28" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+  <text x="234" y="82" fill="#64748B" font-family="monospace" font-size="11">🔍 Search prompts…</text>
+  <!-- Eval cards -->
+  <!-- Card 1 expanded -->
+  <rect x="220" y="102" width="660" height="118" rx="8" fill="#1E293B" stroke="#4F8EF7" stroke-width="0.5"/>
+  <text x="234" y="120" fill="#93C5FD" font-family="monospace" font-size="11">▼  #2 · Explain how transformers work in deep learning.  ·  2026-06-03</text>
+  <line x1="220" y1="128" x2="880" y2="128" stroke="#334155" stroke-width="0.5"/>
+  <text x="234" y="143" fill="#94A3B8" font-family="monospace" font-size="10">Prompt: Explain how transformers work in deep learning.</text>
+  <!-- Response snippets -->
+  <rect x="234" y="152" width="480" height="52" rx="4" fill="#0F1729" stroke="#334155" stroke-width="0.5"/>
+  <text x="244" y="166" fill="#E2E8F0" font-family="monospace" font-size="9" font-weight="bold">Mock-GPT-4o</text>
+  <text x="244" y="179" fill="#6B7280" font-family="monospace" font-size="9">Excellent question about Explain how transformers work…</text>
+  <text x="244" y="192" fill="#475569" font-family="monospace" font-size="8">⏱ 391ms</text>
+  <!-- Score badges -->
+  <rect x="730" y="154" width="80" height="20" rx="10" fill="#14532d"/>
+  <text x="770" y="168" fill="#4ade80" font-family="monospace" font-size="9" text-anchor="middle">🤖 Auto: 6.96</text>
+  <rect x="730" y="180" width="80" height="20" rx="10" fill="#713f12"/>
+  <text x="770" y="194" fill="#fbbf24" font-family="monospace" font-size="9" text-anchor="middle">👤 Human: 8.12</text>
+  <!-- Card 2 collapsed -->
+  <rect x="220" y="228" width="660" height="32" rx="8" fill="#1E293B" stroke="#334155" stroke-width="0.5"/>
+  <text x="234" y="248" fill="#64748B" font-family="monospace" font-size="11">▶  #3 · Write a Python function to reverse a linked list.  ·  2026-06-03</text>
+  <!-- Card 3 collapsed -->
+  <rect x="220" y="268" width="660" height="32" rx="8" fill="#1E293B" stroke="#334155" stroke-width="0.5"/>
+  <text x="234" y="288" fill="#64748B" font-family="monospace" font-size="11">▶  #4 · What are the pros and cons of microservices architecture?  ·  2026-06-03</text>
+  <!-- Card 4 collapsed -->
+  <rect x="220" y="308" width="660" height="32" rx="8" fill="#1E293B" stroke="#334155" stroke-width="0.5"/>
+  <text x="234" y="328" fill="#64748B" font-family="monospace" font-size="11">▶  #5 · How do I center a div in CSS?  ·  2026-06-03</text>
+  <!-- Export section preview -->
+  <line x1="220" y1="360" x2="880" y2="360" stroke="#334155" stroke-width="0.5"/>
+  <text x="220" y="382" fill="#E2E8F0" font-family="monospace" font-size="14" font-weight="bold">📤 Export Preview</text>
+  <!-- Export buttons -->
+  <rect x="220" y="392" width="310" height="56" rx="8" fill="#1E293B" stroke="#334155" stroke-width="0.5"/>
+  <text x="236" y="412" fill="#94A3B8" font-family="monospace" font-size="11">📄 CSV Export</text>
+  <rect x="236" y="420" width="130" height="22" rx="5" fill="#1D4ED8"/>
+  <text x="266" y="435" fill="white" font-family="monospace" font-size="10">⬇ Download CSV</text>
+  <rect x="542" y="392" width="310" height="56" rx="8" fill="#1E293B" stroke="#334155" stroke-width="0.5"/>
+  <text x="558" y="412" fill="#94A3B8" font-family="monospace" font-size="11">🗂 JSON Export</text>
+  <rect x="558" y="420" width="135" height="22" rx="5" fill="#1D4ED8"/>
+  <text x="591" y="435" fill="white" font-family="monospace" font-size="10">⬇ Download JSON</text>
+  <!-- Test results summary box -->
+  <rect x="220" y="460" width="660" height="46" rx="8" fill="#0F2A1F" stroke="#166534" stroke-width="0.5"/>
+  <text x="234" y="479" fill="#4ADE80" font-family="monospace" font-size="11" font-weight="bold">✅ Test Cases Passed — 4 evaluations, 9 model responses, 18 score records</text>
+  <text x="234" y="497" fill="#86EFAC" font-family="monospace" font-size="10">Auto scores: accuracy ∈ [5.0, 8.0]  clarity ∈ [7.3, 9.6]  weighted ∈ [5.96, 6.96]  All in valid range [1–10]</text>
+</svg>
